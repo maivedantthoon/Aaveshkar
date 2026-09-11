@@ -1,0 +1,39 @@
+{
+    "app_name": "Aaveshkar 1.0 AI Assistant",
+    "version": "1.0.0",
+    "server": {
+        "host": "127.0.0.1",
+        "port": 8765
+    },
+    "google": {
+        "search_api_key": "",
+        "search_cx": "b2841eb7655164ea8",
+        "api_key": "b2841eb7655164ea8"
+    },
+    "llm": {
+        "provider": "smart_hybrid",
+        "ollama_url": "http://127.0.0.1:11434",
+        "ollama_model": "qwen2.5:0.5b",
+        "google_api_key": "b2841eb7655164ea8"
+    },
+    "voice": {
+        "enabled": true,
+        "rate": 180,
+        "volume": 0.9
+    },
+    "browser": {
+        "headless": false,
+        "default_search_engine": "https://www.google.com/search?q="
+    },
+    "security": {
+        "safe_mode": false,
+        "allowed_commands": [
+            "python",
+            "node",
+            "powershell",
+            "cmd",
+            "bash",
+            "git"
+        ]
+    }
+}
